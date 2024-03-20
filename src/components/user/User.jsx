@@ -10,7 +10,7 @@ const User = () => {
             <h2>Our Users: {users.length}</h2>
             <p>fantastic and vodro users</p>
             
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-3 gap-2 mt-2">
                 {
                     users.map(user => <Use key={user.id} user={user}></Use> )
                 }
